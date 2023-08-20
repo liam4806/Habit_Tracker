@@ -1,0 +1,50 @@
+{% extends "layout.html" %}
+
+
+{% block main_content %}
+
+<!-- add new stuffs on html for flash message-->
+ {% with messages = get_flashed_messages() %}
+    {%if messages%}
+            <script>
+                alert("{{messages[-1]}}")
+            </script>
+        {%endif%}
+    {% endwith %} 
+<section class="addpage">
+
+        <h1>
+            Add your Habit
+        </h1>
+        <div class="add__content">
+            <h3>
+                Content name:
+            </h3>
+    <form class="form" method="POST">
+        <textarea class="form__input" id="habit" name="habit" rows="3" placeholder="Add a new daily habit"></textarea>
+
+        
+        <h4>
+                Today's Date: {{dt}} 
+            </h4>
+            <div class="edit__date">
+                <p>
+                    Start Date:
+                </p>
+                <input class="edit__date--input" type="date" name="startdate" value="{{dt}}"/>
+                <p>
+                    End Date:
+                </p>
+                <input class="edit__date--input" type="date" name="enddate" value="{{dt}}"/>
+                </div>
+                <div class="edit__buttons">
+                    <button class="form__button" type="submit">Add</button>
+                </div>
+                
+    </form>
+    </div>
+</section>
+
+
+{% endblock %}
+   

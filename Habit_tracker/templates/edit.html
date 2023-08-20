@@ -1,0 +1,51 @@
+{% extends "editlayout.html" %}
+{% block main_content %}
+<section class="editpage">
+    <div class="edit">
+        <h1>
+            Edit your Habit
+        </h1>
+        <div class="edit__content">
+            <h3>
+                Content name:
+            </h3>
+            <form class="form" id="myform" method="POST">
+        <textarea class="form__input" id="habit" name="habit" rows="3" placeholder="Edit the content of your habit">{{habitname}}</textarea>
+        <input type="hidden" name="date" value="{{date}}"/>
+        <input type="hidden" name="habitId" value="{{habitId}}"/>
+        <input type="hidden" name="habitname" value="{{habitname}}"/>
+                <div class='edit__currentdate'>
+             <h4>
+                Today's date: {{dt}}    
+            </h4>
+            <h4>
+                Current Start Date: {{startdate}}    
+            </h4>
+            <h4>
+                Current End Date: {{enddate}}    
+            </h4>
+                </div>
+
+            <div class="edit__date">
+                <p>
+                    Start Date:
+                </p>
+                <input class="edit__date--input" type="date" name="startdat" value="{{startdate}}"/>
+                <p>
+                    End Date:
+                </p>
+                <input class="edit__date--input" type="date" name="enddat" value="{{enddate}}"/>
+                </div>
+                <div class="edit__buttons">
+                    <button class="form__button" type="submit">Edit</button> 
+                    <input class="form__button" type="submit" name="delete" value="Delete"/>  
+                </div>
+                
+                      
+            </form>
+        </div>
+   
+    </div>
+
+</section>
+{% endblock %}
