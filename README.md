@@ -8,7 +8,7 @@ The code is based on studying the "Web Developer Bootcamp with Flask and Python 
 2. Unable to set the start/end date of the habit. If we add one habit, it takes the selected date as a start date and the habit exists infinitely.
 3. When we mark the habit as completed, it won't let me uncheck the checkbox. 
 
-Added features:
+### Added features:
 1. Cancel checkbox
 2. Make the whole block clickable
 3. Make habit edit&deleteable.
