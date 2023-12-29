@@ -1,12 +1,14 @@
 # Habit Tracker
 
-### Tech Stacks: Flask, Python, HTML, CSS, MongoDB
+### Habit Tracker web application using Flask, designed to empower users in effectively managing their routines. Users can seamlessly add, delete, and update habits, enabling them to stay firmly on the path of progress.
 
-### Home
+
+#### Tech Stacks: Flask, Python, HTML, CSS, and MongoDB
+
+# Home
 
 <img width="671" alt="Habit Tracker Home" src="https://github.com/liam4806/Habit_Tracker/assets/95008167/1c603c9b-8a3f-425e-8055-3052c58a42fa">
 
-Habit Tracker web application using Flask, designed to empower users in effectively managing their routines. Users can seamlessly add, delete, and update habits, enabling them to stay firmly on the path of progress.
 
 ### Improvement potentials:
 1. Unable to delete or edit the habit we added.
@@ -19,6 +21,8 @@ Habit Tracker web application using Flask, designed to empower users in effectiv
 3. Make habit edit&deleteable.
 4. Add a function to determine if the invalid string is passed through input. 
 5. Add a function to add habits with date range
+
+# Features
 
 ### Adding habit
 <img width="679" alt="Habit Tracker Add" src="https://github.com/liam4806/Habit_Tracker/assets/95008167/b088aa4d-1cb3-430f-a9fc-1c2271902fc2">
