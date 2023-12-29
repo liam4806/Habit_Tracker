@@ -1,5 +1,7 @@
 # Habit Tracker
 
+### Tech Stacks: Flask, Python, HTML, CSS, MongoDB
+
 ### Home
 
 <img width="671" alt="Habit Tracker Home" src="https://github.com/liam4806/Habit_Tracker/assets/95008167/1c603c9b-8a3f-425e-8055-3052c58a42fa">
