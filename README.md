@@ -47,4 +47,3 @@ Users can edit the content of habit.
 This is my second Flask Project built on Feb/20/2023
 
 
-The original code was from the "Web Developer Bootcamp with Flask and Python in 2022" course on Udemy.
